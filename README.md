@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection with Quantum Computing
 
-## College Name - Team Name
+## VNRVJIET - INTROVERTED INTUITIVES
 - Team Members: Hasini Bolloji, karthikeya , Madhav
 
 ## Problem Statement
