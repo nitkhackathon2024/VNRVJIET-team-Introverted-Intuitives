@@ -1,25 +1,24 @@
+# Credit Card Fraud Detection with Quantum Computing
+
 ## College Name - Team Name
-Hasini Bolloji - Team Leader
-Karthikeya
-Madhav
+- Team Members: Hasini Bolloji, karthikeya , Madhav
 
 ## Problem Statement
-We are working under the [Quantum Computing for Machine Learning] theme, which aims to explore the application of quantum computing to enhance machine learning models.
+Credit card fraud is a significant issue that leads to financial losses for both consumers and financial institutions. Detecting fraudulent transactions in real time is essential to minimize these losses. Current machine learning models often struggle with the imbalanced nature of the data, where normal transactions vastly outnumber fraudulent ones.
 
-Problem Statement
-The problem statement we are addressing is "Comparison of Quantum and Classical Machine Learning Models". In this project, we focus on evaluating the performance of a Variational Quantum Circuit (VQC) model against traditional classical machine learning models.
+To address this issue, we have explored the use of classical machine learning models that analyze the data to identify potential fraud. These models utilize various algorithms to classify transactions based on historical data patterns.
 
-Our goal is to:
+In our project, we introduce the use of quantum computing to enhance the detection of credit card fraud. Quantum computers have the potential to analyze data in new ways, possibly capturing complex relationships that classical models might miss. However, one challenge with quantum computing is that it can be resource-intensive and requires significant computation time. By combining classical and quantum methods, our hybrid approach aims to balance the strengths of both technologies, potentially improving detection rates while mitigating resource demands.
 
-Implement a Variational Quantum Circuit (VQC) model using a quantum computing framework.
-Compare the VQC model with classical machine learning models on a given dataset.
-Analyze and benchmark the models based on accuracy, performance, and scalability.
-This comparison provides insights into the current capabilities of quantum machine learning and its potential advantages over classical approaches in specific scenarios.
+## Instructions on Running the Project
+1. **Download the Notebook**: 
+   - Get the project notebook file (`your_project_notebook.ipynb`) from the repository.
 
-## Instructions on running your project
-Instructions to Run the Project
-Install the required dependencies using the requirements.txt file.
-Run the classical machine learning models.
-Run the Variational Quantum Circuit (VQC) model for comparison.
+2. **Install Required Libraries**:
+   - Make sure you have Python installed on your computer.
+   - Open a terminal or command prompt and run the following commands to install the necessary libraries:
 
-## References
+   ```bash
+   pip install qiskit
+   pip install qiskit-machine-learning
+   pip install numpy pandas matplotlib scikit-learn joblib
